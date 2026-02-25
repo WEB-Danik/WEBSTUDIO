@@ -1,4 +1,16 @@
+.main {
+    padding-top: 120px;
+}
+.features_list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
 .features_item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
     width: 264px;
 
     .feature_header {
@@ -12,5 +24,32 @@
         border: solid 1px #8E8F99;
 
         background-color: #F4F4FD;
+    }
+}
+.our_team_block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 72px;
+
+    margin-top: 120px;
+    padding: 120px 0;
+
+    background-color: #F4F4FD;
+
+
+
+    .our_team_title {
+        font-size: 36px;
+        font-weight: 700;
+        color: #2E2F42;
+    }
+
+
+
+    .our_team_list {
+        display: flex;
+        gap: 24px;
     }
 }
