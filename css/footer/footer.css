@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 100px 156px;
+
+    background-color: #2E2F42;
+}
+
+.footer_text {
+    margin-top: 18px;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    color: #F4F4FD;
+}
+
+
+.social_title {
+    font-size: 16px;
+    font-weight: 500;
+
+    color: #F4F4FD;
+}
+
+.footer_social_media_network {
+    display: flex;
+    gap: 24px;
+    margin-top: 16px;
+}
+
+.footer_social_network {
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+    border-radius: 50%;
+
+    background-color: #4D5AE5;
+}

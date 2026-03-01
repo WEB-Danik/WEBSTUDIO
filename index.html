@@ -1,188 +1,332 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./assets/icons/logo.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="./assets/icons/logo.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
     <!-- Styles -->
     <link rel="stylesheet" href="css/global-styles.css">
     <link rel="stylesheet" href="./css/header/header.css">
     <link rel="stylesheet" href="./css/main/main.css">
+    <link rel="stylesheet" href="./css/footer/footer.css">
     <title>webstudio</title>
-  </head>
-  <body>
-  <div class="wrapper">
+</head>
+<body>
+<div class="wrapper">
+
+    <!--HEADER BLOCK AND NAVIGATION MENU-->
+
     <header class="header">
-      <div class="header_menu menu">
-        <div class="nav_menu">
-          <a href="./index.html" class="logo_link">
-            <img src="./assets/icons/logo.svg" alt="Logo">
-          </a>
-          <ul class="navigation_list">
-            <li class="navigation_list_item">
-              <a href="" class="nav_link">Studio</a>
-            </li>
-            <li class="navigation_list_item">
-              <a href="" class="nav_link">Portfolio</a>
-            </li>
-            <li class="navigation_list_item">
-              <a href="" class="nav_link">Contacts</a>
-            </li>
-          </ul>
+        <div class="header_menu menu">
+            <div class="nav_menu">
+                <a href="./index.html" class="logo_link">
+                    <img src="./assets/icons/logo.svg" alt="Logo">
+                </a>
+                <ul class="navigation_list">
+                    <li class="navigation_list_item">
+                        <a href="" class="nav_link">Studio</a>
+                    </li>
+                    <li class="navigation_list_item">
+                        <a href="" class="nav_link">Portfolio</a>
+                    </li>
+                    <li class="navigation_list_item">
+                        <a href="" class="nav_link">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="social_list">
+                <li class="social_list_item">
+                    <a href="mailto:info@devstudio.com" class="email_link">info@devstudio.com</a>
+                </li>
+                <li class="social_list_item">
+                    <a href="tel:+11 (000) 111-11-11" class="phone_link">+11 (000) 111-11-11</a>
+                </li>
+            </ul>
         </div>
-        <ul class="social_list">
-          <li class="social_list_item">
-            <a href="mailto:info@devstudio.com" class="email_link">info@devstudio.com</a>
-          </li>
-          <li class="social_list_item">
-            <a href="tel:+11 (000) 111-11-11" class="phone_link">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </div>
-      <div class="header_container">
-        <h1 class="hero_title">
-          Effective Solutions<br/>for Your Business
-        </h1>
-        <button class="order_button header_button">
-          Order Service
-        </button>
-      </div>
+        <div class="header_container">
+            <h1 class="hero_title">
+                Effective Solutions<br/>for Your Business
+            </h1>
+            <button class="order_button header_button">
+                Order Service
+            </button>
+        </div>
     </header>
+
+    <!--MAIN BLOCK-->
+
     <main class="main">
-      <div class="features">
-        <ul class="features_list">
-          <li class="features_item">
-            <section class="feature_header">
-              <img src="./assets/icons/antenna_1.svg" alt="Icon 1">
-            </section>
-            <h5 class="feature_title">Strategy</h5>
-            <p class="feature_text">
-              Our goal is to identify the business
-              problem to walk away with the perfect and creative solution.
-            </p>
-          </li>
-          <li class="features_item">
-            <section class="feature_header">
-              <img src="./assets/icons/antenna_1.svg" alt="Icon 1">
-            </section>
-            <h5 class="feature_title">Punctuality</h5>
-            <p class="feature_text">
-              Our goal is to identify the business
-              problem to walk away with the perfect and creative solution.
-            </p>
-          </li>
-          <li class="features_item">
-            <section class="feature_header">
-              <img src="./assets/icons/antenna_1.svg" alt="Icon 1">
-            </section>
-            <h5 class="feature_title">Diligence</h5>
-            <p class="feature_text">
-              Our goal is to identify the business
-              problem to walk away with the perfect and creative solution.
-            </p>
-          </li>
-          <li class="features_item">
-            <section class="feature_header">
-              <img src="./assets/icons/antenna_1.svg" alt="Icon 1">
-            </section>
-            <h5 class="feature_title">Technologies</h5>
-            <p class="feature_text">
-              Our goal is to identify the business
-              problem to walk away with the perfect and creative solution.
-            </p>
-          </li>
-        </ul>
-      </div>
-      <div class="our_team_block">
-        <p class="our_team_title">Our Team</p>
-        <ul class="our_team_list">
-          <li class="our_team_item">
-            <img src="./assets/images/mark_guerrero.png" alt="Mark Guerrero" class="photo_people">
-            <h3 class="name_people">Mark Guerrero</h3>
-            <p class="position_people">Product Designer</p>
-            <section class="our_team_network">
-              <a href="./*" class="social_network">
-                <img src="./assets/icons/instagram_2.svg" alt="" class="instagrame">
-              </a>
-              <a href="./*" class="social_network">
-                <img src="./assets/icons/twitter_1.svg" alt="" class="twitter">
-              </a>
-              <a href="./*" class="social_network">
-                <img src="./assets/icons/facebook_1.svg" alt="" class="facebook">
-              </a>
-              <a href="./*" class="social_network">
-                <img src="./assets/icons/linkedin_1.svg" alt="" class="linkedin">
-              </a>
-            </section>
-          </li>
-          <li class="our_team_item">
-            <img src="./assets/images/tom_ford.png" alt="Tom Ford" class="photo_people">
-            <h3 class="name_people">Tom Ford</h3>
-            <p class="position_people">Frontend Developer</p>
-            <section class="our_team_network">
-              <a href="./*" class="social_network">
-                <img src="./assets/icons/instagram_2.svg" alt="" class="instagrame">
-              </a>
-              <a href="./*" class="social_network">
-                <img src="./assets/icons/twitter_1.svg" alt="" class="twitter">
-              </a>
-              <a href="./*" class="social_network">
-                <img src="./assets/icons/facebook_1.svg" alt="" class="facebook">
-              </a>
-              <a href="./*" class="social_network">
-                <img src="./assets/icons/linkedin_1.svg" alt="" class="linkedin">
-              </a>
-            </section>
-          </li>
-          <li class="our_team_item">
-            <img src="./assets/images/camila_garcia.png" alt="Camila Garcia" class="photo_people">
-            <h3 class="name_people">Camila Garcia</h3>
-            <p class="position_people">Marketing</p>
-            <section class="our_team_network">
-              <a href="./*" class="social_network">
-                <img src="./assets/icons/instagram_2.svg" alt="" class="instagrame">
-              </a>
-              <a href="./*" class="social_network">
-                <img src="./assets/icons/twitter_1.svg" alt="" class="twitter">
-              </a>
-              <a href="./*" class="social_network">
-                <img src="./assets/icons/facebook_1.svg" alt="" class="facebook">
-              </a>
-              <a href="./*" class="social_network">
-                <img src="./assets/icons/linkedin_1.svg" alt="" class="linkedin">
-              </a>
-            </section>
-          </li>
-          <li class="our_team_item">
-            <img src="./assets/images/daniel_wilson.png" alt="Daniel Wilson" class="photo_people">
-            <h3 class="name_people">Daniel Wilson</h3>
-            <p class="position_people">UI Designer</p>
-            <section class="our_team_network">
-              <a href="./*" class="social_network">
-                <img src="./assets/icons/instagram_2.svg" alt="" class="instagrame">
-              </a>
-              <a href="./*" class="social_network">
-                <img src="./assets/icons/twitter_1.svg" alt="" class="twitter">
-              </a>
-              <a href="./*" class="social_network">
-                <img src="./assets/icons/facebook_1.svg" alt="" class="facebook">
-              </a>
-              <a href="./*" class="social_network">
-                <img src="./assets/icons/linkedin_1.svg" alt="" class="linkedin">
-              </a>
-            </section>
-          </li>
-        </ul>
-      </div>
+        <div class="features">
+            <ul class="features_list">
+                <li class="features_item">
+                    <section class="feature_header">
+                        <img src="./assets/icons/antenna_1.svg" alt="Icon 1">
+                    </section>
+                    <h5 class="feature_title">Strategy</h5>
+                    <p class="feature_text">
+                        Our goal is to identify the business
+                        problem to walk away with the perfect and creative solution.
+                    </p>
+                </li>
+                <li class="features_item">
+                    <section class="feature_header">
+                        <img src="./assets/icons/antenna_1.svg" alt="Icon 1">
+                    </section>
+                    <h5 class="feature_title">Punctuality</h5>
+                    <p class="feature_text">
+                        Bring the key message to the
+                        brand's audience for the best price
+                        within the shortest possible time.
+                    </p>
+                </li>
+                <li class="features_item">
+                    <section class="feature_header">
+                        <img src="./assets/icons/antenna_1.svg" alt="Icon 1">
+                    </section>
+                    <h5 class="feature_title">Diligence</h5>
+                    <p class="feature_text">
+                        Research and confirm brands with
+                        the strongest digital growth
+                        opportunities and minimize risk.
+                    </p>
+                </li>
+                <li class="features_item">
+                    <section class="feature_header">
+                        <img src="./assets/icons/antenna_1.svg" alt="Icon 1">
+                    </section>
+                    <h5 class="feature_title">Technologies</h5>
+                    <p class="feature_text">
+                        Design practice focused on digital
+                        experiences. We bring forth a deep
+                        passion for problem-solving.
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+        <!--OUR TEAM BLOCK-->
+
+        <div class="our_team_block">
+            <p class="our_team_title">Our Team</p>
+            <ul class="our_team_list">
+                <li class="our_team_item">
+                    <img src="./assets/images/mark_guerrero.png" alt="Mark Guerrero" class="photo_people">
+                    <h3 class="name_people">Mark Guerrero</h3>
+                    <p class="position_people">Product Designer</p>
+                    <section class="our_team_network">
+                        <a href="./*" class="social_network">
+                            <img src="./assets/icons/instagram_2.svg" alt="" class="instagrame">
+                        </a>
+                        <a href="./*" class="social_network">
+                            <img src="./assets/icons/twitter_1.svg" alt="" class="twitter">
+                        </a>
+                        <a href="./*" class="social_network">
+                            <img src="./assets/icons/facebook_1.svg" alt="" class="facebook">
+                        </a>
+                        <a href="./*" class="social_network">
+                            <img src="./assets/icons/linkedin_1.svg" alt="" class="linkedin">
+                        </a>
+                    </section>
+                </li>
+                <li class="our_team_item">
+                    <img src="./assets/images/tom_ford.png" alt="Tom Ford" class="photo_people">
+                    <h3 class="name_people">Tom Ford</h3>
+                    <p class="position_people">Frontend Developer</p>
+                    <section class="our_team_network">
+                        <a href="./*" class="social_network">
+                            <img src="./assets/icons/instagram_2.svg" alt="" class="instagrame">
+                        </a>
+                        <a href="./*" class="social_network">
+                            <img src="./assets/icons/twitter_1.svg" alt="" class="twitter">
+                        </a>
+                        <a href="./*" class="social_network">
+                            <img src="./assets/icons/facebook_1.svg" alt="" class="facebook">
+                        </a>
+                        <a href="./*" class="social_network">
+                            <img src="./assets/icons/linkedin_1.svg" alt="" class="linkedin">
+                        </a>
+                    </section>
+                </li>
+                <li class="our_team_item">
+                    <img src="./assets/images/camila_garcia.png" alt="Camila Garcia" class="photo_people">
+                    <h3 class="name_people">Camila Garcia</h3>
+                    <p class="position_people">Marketing</p>
+                    <section class="our_team_network">
+                        <a href="./*" class="social_network">
+                            <img src="./assets/icons/instagram_2.svg" alt="" class="instagrame">
+                        </a>
+                        <a href="./*" class="social_network">
+                            <img src="./assets/icons/twitter_1.svg" alt="" class="twitter">
+                        </a>
+                        <a href="./*" class="social_network">
+                            <img src="./assets/icons/facebook_1.svg" alt="" class="facebook">
+                        </a>
+                        <a href="./*" class="social_network">
+                            <img src="./assets/icons/linkedin_1.svg" alt="" class="linkedin">
+                        </a>
+                    </section>
+                </li>
+                <li class="our_team_item">
+                    <img src="./assets/images/daniel_wilson.png" alt="Daniel Wilson" class="photo_people">
+                    <h3 class="name_people">Daniel Wilson</h3>
+                    <p class="position_people">UI Designer</p>
+                    <section class="our_team_network">
+                        <a href="./*" class="social_network">
+                            <img src="./assets/icons/instagram_2.svg" alt="" class="instagrame">
+                        </a>
+                        <a href="./*" class="social_network">
+                            <img src="./assets/icons/twitter_1.svg" alt="" class="twitter">
+                        </a>
+                        <a href="./*" class="social_network">
+                            <img src="./assets/icons/facebook_1.svg" alt="" class="facebook">
+                        </a>
+                        <a href="./*" class="social_network">
+                            <img src="./assets/icons/linkedin_1.svg" alt="" class="linkedin">
+                        </a>
+                    </section>
+                </li>
+            </ul>
+        </div>
+
+        <!--OUR PORTFOLIO BLOCK-->
+
+        <div class="our_portfolio_block">
+            <p class="portfolio_title">Our Portfolio</p>
+            <ul class="our_portfolio_list">
+                <li class="our_portfolio_item">
+                    <section class="header_block_our_portfolio">
+                        <div class="description_block_our_portfolio">
+                            <p class="description_text">
+                                14 Stylish and User-Friendly App Design<br>
+                                Concepts · Task Manager App · Calorie<br>
+                                Tracker App · Exotic Fruit Ecommerce<br>
+                                App · Cloud Storage App
+                            </p>
+                        </div>
+                        <img src="./assets/images/banking_app.png" alt="Banking App" class="photo_portfolio_element">
+                    </section>
+                    <h3 class="title_portfolio_element portfolio_text">Banking App</h3>
+                    <p class="description_portfolio_element portfolio_text">App</p>
+                </li>
+                <li class="our_portfolio_item">
+                    <section class="header_block_our_portfolio">
+                        <div class="description_block_our_portfolio">
+                            <p class="description_text">
+                                14 Stylish and User-Friendly App Design<br>
+                                Concepts · Task Manager App · Calorie<br>
+                                Tracker App · Exotic Fruit Ecommerce<br>
+                                App · Cloud Storage App
+                            </p>
+                        </div>
+                        <img src="./assets/images/cashless_payment.png" alt="Cashless Payment"
+                             class="photo_portfolio_element">
+                    </section>
+                    <h3 class="title_portfolio_element portfolio_text">Cashless Payment</h3>
+                    <p class="description_portfolio_element portfolio_text">Marketing</p>
+                </li>
+                <li class="our_portfolio_item">
+                    <section class="header_block_our_portfolio">
+                        <div class="description_block_our_portfolio">
+                            <p class="description_text">
+                                14 Stylish and User-Friendly App Design<br>
+                                Concepts · Task Manager App · Calorie<br>
+                                Tracker App · Exotic Fruit Ecommerce<br>
+                                App · Cloud Storage App
+                            </p>
+                        </div>
+                        <img src="./assets/images/meditation_app.png" alt="Meditation App"
+                             class="photo_portfolio_element">
+                    </section>
+                    <h3 class="title_portfolio_element portfolio_text">Meditation App</h3>
+                    <p class="description_portfolio_element portfolio_text">App</p>
+                </li>
+                <li class="our_portfolio_item">
+                    <section class="header_block_our_portfolio">
+                        <div class="description_block_our_portfolio">
+                            <p class="description_text">
+                                14 Stylish and User-Friendly App Design<br>
+                                Concepts · Task Manager App · Calorie<br>
+                                Tracker App · Exotic Fruit Ecommerce<br>
+                                App · Cloud Storage App
+                            </p>
+                        </div>
+                        <img src="./assets/images/taxi_service.png" alt="Taxi Service" class="photo_portfolio_element">
+                    </section>
+                    <h3 class="title_portfolio_element portfolio_text">Taxi Service</h3>
+                    <p class="description_portfolio_element portfolio_text">Marketing</p>
+                </li>
+                <li class="our_portfolio_item">
+                    <section class="header_block_our_portfolio">
+                        <div class="description_block_our_portfolio">
+                            <p class="description_text">
+                                14 Stylish and User-Friendly App Design<br>
+                                Concepts · Task Manager App · Calorie<br>
+                                Tracker App · Exotic Fruit Ecommerce<br>
+                                App · Cloud Storage App
+                            </p>
+                        </div>
+                        <img src="./assets/images/screen_illustration.png" alt="Screen Illustrations"
+                             class="photo_portfolio_element">
+                    </section>
+                    <h3 class="title_portfolio_element portfolio_text">Screen Illustrations</h3>
+                    <p class="description_portfolio_element portfolio_text">Design</p>
+                </li>
+                <li class="our_portfolio_item">
+                    <section class="header_block_our_portfolio">
+                        <div class="description_block_our_portfolio">
+                            <p class="description_text">
+                                14 Stylish and User-Friendly App Design<br>
+                                Concepts · Task Manager App · Calorie<br>
+                                Tracker App · Exotic Fruit Ecommerce<br>
+                                App · Cloud Storage App
+                            </p>
+                        </div>
+                        <img src="./assets/images/online_courses.png" alt="Online Courses"
+                             class="photo_portfolio_element">
+                    </section>
+                    <h3 class="title_portfolio_element portfolio_text">Online Courses</h3>
+                    <p class="description_portfolio_element portfolio_text">Marketing</p>
+                </li>
+            </ul>
+        </div>
     </main>
+
+    <!--FOOTER BLOCK-->
+
     <footer class="footer">
-      <p>Footer</p>
+        <div class="footer_brand">
+            <img class="footer_logo" src="./assets/icons/footer_logo.svg" alt="Logo">
+            <p class="footer_text">
+                Increase the flow of customers and <br>
+                sales for your business with digital <br>
+                marketing & growth solutions.
+            </p>
+        </div>
+        <div class="footer_social">
+            <h3 class="social_title">Social media</h3>
+            <section class="footer_social_media_network">
+                <a href="./*" class="footer_social_network">
+                    <img src="./assets/icons/instagram_2.svg" alt="" class="instagrame">
+                </a>
+                <a href="./*" class="social_network">
+                    <img src="./assets/icons/twitter_1.svg" alt="" class="twitter">
+                </a>
+                <a href="./*" class="social_network">
+                    <img src="./assets/icons/facebook_1.svg" alt="" class="facebook">
+                </a>
+                <a href="./*" class="social_network">
+                    <img src="./assets/icons/linkedin_1.svg" alt="" class="linkedin">
+                </a>
+            </section>
+        </div>
+        <div class="footer_subscribe"></div>
     </footer>
-  </div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+</div>
+<script type="module" src="/src/main.js"></script>
+</body>
 </html>
