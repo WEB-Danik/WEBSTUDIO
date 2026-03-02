@@ -299,6 +299,8 @@
     <!--FOOTER BLOCK-->
 
     <footer class="footer">
+
+        <!--LOGO AND DESCRIPTION-->
         <div class="footer_brand">
             <img class="footer_logo" src="./assets/icons/footer_logo.svg" alt="Logo">
             <p class="footer_text">
@@ -307,6 +309,8 @@
                 marketing & growth solutions.
             </p>
         </div>
+
+        <!--SOCIAL NETWORK-->
         <div class="footer_social">
             <h3 class="social_title">Social media</h3>
             <section class="footer_social_media_network">
@@ -324,7 +328,23 @@
                 </a>
             </section>
         </div>
-        <div class="footer_subscribe"></div>
+
+        <!--SUBSCRIBE-->
+        <div class="footer_subscribe">
+            <h3 class="subscribe_title">Subscribe</h3>
+            <section class="subscribe_form">
+                <input type="text"
+                       name="email"
+                       id="email"
+                       placeholder="Email"
+                       pattern=".+@example\.com"
+                       required
+                />
+                <button type="submit" class="submit_subscribe_form">
+                    Subscribe
+                </button>
+            </section>
+        </div>
     </footer>
 </div>
 <script type="module" src="/src/main.js"></script>
