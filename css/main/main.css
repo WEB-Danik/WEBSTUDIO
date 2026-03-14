@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
-    
+
     width: 264px;
 }
 
@@ -161,4 +161,20 @@
 }
 .portfolio_text{
     margin-left: 18px;
-}px
+}
+/*Adaptability*/
+@media (max-width: 1400px) {
+    .feature_header {
+        display: none;
+    }
+    .features_list {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+@media (max-width: 856px) {
+    .features_list {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
