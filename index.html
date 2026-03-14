@@ -18,6 +18,61 @@
 </head>
 <body>
 <div class="wrapper">
+    <div class="modal_overlay">
+        <div class="modal">
+            <a class="btn_close_modal">
+                <img src="./assets/icons/icon_close_form.svg" alt="close">
+            </a>
+            <h4>Leave your contacts and we will call you back</h4>
+            <form name="contacts" class="form_contacts" novalidate>
+                <label for="username" class="form_label">
+                    Name
+                    <input
+                            type="text"
+                            name="username"
+                            id="username"
+                            class="form_input"
+                            placeholder="Jacob Mercer"
+                    />
+                </label>
+                <label for="phone" class="form_label">
+                    Phone
+                    <input
+                            type="number"
+                            name="username"
+                            id="phone"
+                            class="form_input"
+                            placeholder="+380 000 00 00 00"
+                    />
+                </label>
+                <label for="user_email" class="form_label">
+                    Email
+                    <input
+                            type="email"
+                            name="email"
+                            id="user_email"
+                            class="form_input"
+                            placeholder="flex1@email.com"/>
+                </label>
+                <label for="user_comment" class="form_label">
+                    Comment
+                    <textarea
+                            rows="4"
+                            cols="40"
+                            name="user_comment"
+                            id="user_comment"
+                            class="form_input"
+                            placeholder="Hello World!"
+                    ></textarea>
+                </label>
+                <label for="accept" class="form_label_accept">
+                    <input type="checkbox" name="accept" id="accept">
+                    I accept the terms and conditions of the <a href="*">Privacy Policy</a>
+                </label>
+                <button type="submit" class="submit_form">Send</button>
+            </form>
+        </div>
+    </div>
 
     <!--HEADER BLOCK AND NAVIGATION MENU-->
 
@@ -61,6 +116,9 @@
     <!--MAIN BLOCK-->
 
     <main class="main">
+
+        <!--FEATURES BLOCK-->
+
         <div class="features">
             <ul class="features_list">
                 <li class="features_item">
@@ -75,7 +133,7 @@
                 </li>
                 <li class="features_item">
                     <section class="feature_header">
-                        <img src="./assets/icons/antenna_1.svg" alt="Icon 1">
+                        <img src="./assets/icons/clock_1.svg" alt="Icon 1">
                     </section>
                     <h5 class="feature_title">Punctuality</h5>
                     <p class="feature_text">
@@ -86,7 +144,7 @@
                 </li>
                 <li class="features_item">
                     <section class="feature_header">
-                        <img src="./assets/icons/antenna_1.svg" alt="Icon 1">
+                        <img src="./assets/icons/diagram_1.svg" alt="Icon 1">
                     </section>
                     <h5 class="feature_title">Diligence</h5>
                     <p class="feature_text">
@@ -97,7 +155,7 @@
                 </li>
                 <li class="features_item">
                     <section class="feature_header">
-                        <img src="./assets/icons/antenna_1.svg" alt="Icon 1">
+                        <img src="./assets/icons/astronaut_1.svg" alt="Icon 1">
                     </section>
                     <h5 class="feature_title">Technologies</h5>
                     <p class="feature_text">
