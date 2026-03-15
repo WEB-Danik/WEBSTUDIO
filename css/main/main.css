@@ -109,8 +109,8 @@
     justify-content: space-between;
     flex-flow: wrap;
     gap: 24px;
+    padding: 0 156px;
 
-    width: 1128px;
 }
 
 .our_portfolio_item {
@@ -167,14 +167,20 @@
     .feature_header {
         display: none;
     }
-    .features_list {
+    .features_list,
+    .our_team_list,
+    .our_portfolio_list{
         display: grid;
         grid-template-columns: auto auto;
+        padding: 0;
     }
 }
 @media (max-width: 856px) {
-    .features_list {
+    .features_list,
+    .our_team_list,
+    .our_portfolio_list{
         display: grid;
         grid-template-columns: auto;
+        /*padding: 0;*/
     }
 }

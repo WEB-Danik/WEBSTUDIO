@@ -167,7 +167,7 @@
 }
 @media (max-width: 856px) {
     .header_menu {
-        background-color: greenyellow;
+        padding: 25.5px 16px;
     }
     .navigation_list,
     .social_list {
