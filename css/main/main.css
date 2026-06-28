@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     gap: 24px;
+    padding: 0 16px;
 }
 
 .features_item {
@@ -124,6 +125,7 @@
     overflow: hidden;
 
     width: 360px;
+    max-width: calc(100vw - 32px);
 
     background-color: #FFFFFF;
     box-shadow: 1px 2px #2E2F4214;
@@ -152,10 +154,6 @@
     opacity: 1;
 }
 .photo_portfolio_element {
-    cursor: pointer         ;
-}
-
-.photo_portfolio_element {
     margin-bottom: 24px;
 }
 .portfolio_text{
@@ -175,11 +173,21 @@
     }
 }
 @media (max-width: 856px) {
+    .main {
+        padding-top: 96px;
+    }
     .features_list,
     .our_team_list,
     .our_portfolio_list{
         display: grid;
         grid-template-columns: auto;
-        /*padding: 0;*/
+        justify-content: center;
+        padding: 0 16px;
+    }
+    .our_team_block {
+        padding: 96px 16px;
+    }
+    .our_portfolio_block {
+        padding: 96px 0;
     }
 }

@@ -19,11 +19,11 @@
 <body>
 <div class="wrapper">
     <div class="modal_overlay">
-        <div class="modal">
-            <a class="btn_close_modal">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="contact_modal_title">
+            <button class="btn_close_modal" type="button" aria-label="Close modal">
                 <img src="./assets/icons/icon_close_form.svg" alt="close">
-            </a>
-            <h4>Leave your contacts and we will call you back</h4>
+            </button>
+            <h4 id="contact_modal_title">Leave your contacts and we will call you back</h4>
             <form name="contacts" class="form_contacts" novalidate>
                 <label for="username" class="form_label">
                     Name
@@ -38,8 +38,8 @@
                 <label for="phone" class="form_label">
                     Phone
                     <input
-                            type="number"
-                            name="username"
+                            type="tel"
+                            name="phone"
                             id="phone"
                             class="form_input"
                             placeholder="+380 000 00 00 00"
@@ -67,7 +67,7 @@
                 </label>
                 <label for="accept" class="form_label_accept">
                     <input type="checkbox" name="accept" id="accept">
-                    I accept the terms and conditions of the <a href="*">Privacy Policy</a>
+                    I accept the terms and conditions of the <a href="#">Privacy Policy</a>
                 </label>
                 <button type="submit" class="submit_form">Send</button>
             </form>
@@ -89,7 +89,7 @@
                         <a href="#our_portfolio" class="nav_link">Portfolio</a>
                     </li>
                     <li class="navigation_list_item">
-                        <a href="" class="nav_link">Contacts</a>
+                        <a href="#contacts" class="nav_link">Contacts</a>
                     </li>
                 </ul>
             <ul class="social_list">
@@ -97,12 +97,12 @@
                     <a href="mailto:info@devstudio.com" class="email_link">info@devstudio.com</a>
                 </li>
                 <li class="social_list_item">
-                    <a href="tel:+11 (000) 111-11-11" class="phone_link">+11 (000) 111-11-11</a>
+                    <a href="tel:+110001111111" class="phone_link">+11 (000) 111-11-11</a>
                 </li>
             </ul>
-            <a class="burger_menu">
+            <button class="burger_menu" type="button" aria-label="Open menu" aria-expanded="false">
                 <img src="./assets/icons/burger_menu.svg" alt="burger menu">
-            </a>
+            </button>
         </div>
         <div class="header_container">
             <h1 class="hero_title">
@@ -178,16 +178,16 @@
                     <h3 class="name_people">Mark Guerrero</h3>
                     <p class="position_people">Product Designer</p>
                     <section class="our_team_network">
-                        <a href="./*" class="social_network">
+                        <a href="#" class="social_network">
                             <img src="./assets/icons/instagram_2.svg" alt="" class="instagrame">
                         </a>
-                        <a href="./*" class="social_network">
+                        <a href="#" class="social_network">
                             <img src="./assets/icons/twitter_1.svg" alt="" class="twitter">
                         </a>
-                        <a href="./*" class="social_network">
+                        <a href="#" class="social_network">
                             <img src="./assets/icons/facebook_1.svg" alt="" class="facebook">
                         </a>
-                        <a href="./*" class="social_network">
+                        <a href="#" class="social_network">
                             <img src="./assets/icons/linkedin_1.svg" alt="" class="linkedin">
                         </a>
                     </section>
@@ -197,16 +197,16 @@
                     <h3 class="name_people">Tom Ford</h3>
                     <p class="position_people">Frontend Developer</p>
                     <section class="our_team_network">
-                        <a href="./*" class="social_network">
+                        <a href="#" class="social_network">
                             <img src="./assets/icons/instagram_2.svg" alt="" class="instagrame">
                         </a>
-                        <a href="./*" class="social_network">
+                        <a href="#" class="social_network">
                             <img src="./assets/icons/twitter_1.svg" alt="" class="twitter">
                         </a>
-                        <a href="./*" class="social_network">
+                        <a href="#" class="social_network">
                             <img src="./assets/icons/facebook_1.svg" alt="" class="facebook">
                         </a>
-                        <a href="./*" class="social_network">
+                        <a href="#" class="social_network">
                             <img src="./assets/icons/linkedin_1.svg" alt="" class="linkedin">
                         </a>
                     </section>
@@ -216,16 +216,16 @@
                     <h3 class="name_people">Camila Garcia</h3>
                     <p class="position_people">Marketing</p>
                     <section class="our_team_network">
-                        <a href="./*" class="social_network">
+                        <a href="#" class="social_network">
                             <img src="./assets/icons/instagram_2.svg" alt="" class="instagrame">
                         </a>
-                        <a href="./*" class="social_network">
+                        <a href="#" class="social_network">
                             <img src="./assets/icons/twitter_1.svg" alt="" class="twitter">
                         </a>
-                        <a href="./*" class="social_network">
+                        <a href="#" class="social_network">
                             <img src="./assets/icons/facebook_1.svg" alt="" class="facebook">
                         </a>
-                        <a href="./*" class="social_network">
+                        <a href="#" class="social_network">
                             <img src="./assets/icons/linkedin_1.svg" alt="" class="linkedin">
                         </a>
                     </section>
@@ -235,16 +235,16 @@
                     <h3 class="name_people">Daniel Wilson</h3>
                     <p class="position_people">UI Designer</p>
                     <section class="our_team_network">
-                        <a href="./*" class="social_network">
+                        <a href="#" class="social_network">
                             <img src="./assets/icons/instagram_2.svg" alt="" class="instagrame">
                         </a>
-                        <a href="./*" class="social_network">
+                        <a href="#" class="social_network">
                             <img src="./assets/icons/twitter_1.svg" alt="" class="twitter">
                         </a>
-                        <a href="./*" class="social_network">
+                        <a href="#" class="social_network">
                             <img src="./assets/icons/facebook_1.svg" alt="" class="facebook">
                         </a>
-                        <a href="./*" class="social_network">
+                        <a href="#" class="social_network">
                             <img src="./assets/icons/linkedin_1.svg" alt="" class="linkedin">
                         </a>
                     </section>
@@ -357,7 +357,7 @@
 
     <!--FOOTER BLOCK-->
 
-    <footer class="footer">
+    <footer class="footer" id="contacts">
 
         <!--LOGO AND DESCRIPTION-->
         <div class="footer_brand">
@@ -373,16 +373,16 @@
         <div class="footer_social">
             <h3 class="social_title">Social media</h3>
             <section class="footer_social_media_network">
-                <a href="./*" class="footer_social_network">
+                <a href="#" class="footer_social_network">
                     <img src="./assets/icons/instagram_2.svg" alt="" class="instagrame">
                 </a>
-                <a href="./*" class="social_network">
+                <a href="#" class="social_network">
                     <img src="./assets/icons/twitter_1.svg" alt="" class="twitter">
                 </a>
-                <a href="./*" class="social_network">
+                <a href="#" class="social_network">
                     <img src="./assets/icons/facebook_1.svg" alt="" class="facebook">
                 </a>
-                <a href="./*" class="social_network">
+                <a href="#" class="social_network">
                     <img src="./assets/icons/linkedin_1.svg" alt="" class="linkedin">
                 </a>
             </section>

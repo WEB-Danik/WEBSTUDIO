@@ -84,6 +84,8 @@
         grid-template-columns: 1fr;
         justify-items: center;
         gap: 72px;
+        padding: 96px 16px;
+        text-align: center;
     }
 
     .footer_brand {
@@ -105,5 +107,13 @@
         display: grid;
         grid-template-columns: auto;
         justify-items: center;
+        width: 100%;
+    }
+
+    .subscribe_form,
+    #email,
+    .submit_subscribe_form {
+        width: 100%;
+        max-width: 320px;
     }
 }
